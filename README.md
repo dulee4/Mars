@@ -10,7 +10,7 @@ Analitički model temelji se na rigoroznoj obradi sirovih podataka unutar `panda
 U nastavku je predstavljeno pet ključnih dokaznih materijala analize.
 
 ### 1. Matrica korelacije parametara
-![Korelacija parametara](assets/graph1_temp_h2o (1).png)
+![Korelacija parametara](assets/graph_temp_h2o(1).png)
 *Interpretacija:* Ovaj grafikon identificira međuovisnost faktora. Visoka korelacija ukazuje na stabilna geološka područja pogodna za stacionarna mjerenja.
 
 ### 2. Distribucija atmosferske temperature
