@@ -21,7 +21,7 @@ plt.title('Odnos temperature i vlage')
 plt.savefig('graph1_temp_h2o.png')
 plt.close()
 
-# GRAPH 2: Heatmap dubine - SVE MALIM SLOVIMA
+# GRAPH 2: Heatmap dubine 
 plt.figure(figsize=(10, 6))
 # Koristimo 'dubina' umjesto 'Dubina'
 sns.scatterplot(data=df_cisto, x='lon', y='lat', hue='dubina', palette='viridis', size='dubina')
@@ -29,14 +29,14 @@ plt.title('Karta dubine bušenja')
 plt.savefig('graph2_heatmap_depth.png')
 plt.close()
 
-# GRAPH 3: Metan - PAZI na 'metan' (malo m)
+# GRAPH 3: Metan
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df_cisto, x='lon', y='lat', hue='metan', palette={True: 'red', False: 'blue'})
 plt.title('Prisutnost metana')
 plt.savefig('graph3_methane_scatter.png')
 plt.close()
 
-# GRAPH 4: Kandidati - PAZI na 'metan', 'organske_molekule' i 'vlaga'
+# GRAPH 4: Kandidati 
 kandidati = df_cisto[(df_cisto['metan'] == True)]
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df_cisto, x='lon', y='lat', hue='vlaga', alpha=0.5)
