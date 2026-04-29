@@ -14,15 +14,15 @@ U nastavku je predstavljeno pet ključnih dokaznih materijala analize.
 *Interpretacija:* Ovaj grafikon identificira međuovisnost faktora. Visoka korelacija ukazuje na stabilna geološka područja pogodna za stacionarna mjerenja.
 
 ### 2. Distribucija atmosferske temperature
-![Distribucija temperature](assets/scatter_plot (1).png)
+![Distribucija temperature](assets/scatter_plot.png)
 *Interpretacija:* Histogram prikazuje termalnu stabilnost sektora. Zone s ekstremnim oscilacijama automatski se klasificiraju kao rizične za hardver robota.
 
 ### 3. Toplinska karta dubine (Bathymetry Heatmap)
-![Toplinska karta dubine](assets/graph2_heatmap_depth (1).png)
+![Toplinska karta dubine](assets/graph2_heatmap_depth.png)
 *Interpretacija:* Vizualizacija gradijenta dubine služi za izbjegavanje opasnih nagiba. Tamnije zone predstavljaju depresije koje rover mora obići radi održavanja stabilnosti.
 
 ### 4. Prostorna rasprostranjenost metana
-![Koncentracija metana](assets/graph3_methane_scatter (1).png)
+![Koncentracija metana](assets/graph3_methane_scatter.png)
 *Interpretacija:* Scatter plot s intenzitetom boja prikazuje koncentraciju metana. Područja u crvenom spektru su prioritetne točke interesa (POI) za biološku prospekciju.
 
 ### 5. Završna satelitska mapa (Extent Mapping)
