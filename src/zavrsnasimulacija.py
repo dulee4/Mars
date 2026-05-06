@@ -81,3 +81,19 @@ except FileNotFoundError:
     print("Greška: Datoteka 'jezero_crater_satellite_map.png' nije pronađena!")
 
 plt.close()
+
+{
+  "uplink_id": "JEZERO_NAV_2026",
+  "navigation_commands": [
+    {
+      "step": 1,
+      "coords": {"lat": 18.452, "lon": 77.456},
+      "action": "move_to_poi"
+    },
+    {
+      "step": 2,
+      "coords": {"lat": 18.455, "lon": 77.460},
+      "action": "soil_sampling"
+    }
+  ]
+}
